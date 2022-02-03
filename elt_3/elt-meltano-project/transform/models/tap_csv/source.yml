@@ -1,0 +1,6 @@
+config-version: 2
+version: 2
+sources:
+  - name: public
+    tables:
+    - name: source
