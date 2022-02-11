@@ -1,0 +1,8 @@
+{
+    "start_date": "2021-11-02T00:00:00Z",
+    "account_id": "890277245818",
+    "role_name": "role-singer-s3-tap",
+    "bucket": "csv-redshift-221",
+    "external_id": "my_optional_secret_external_id",
+    "tables": "[{\"search_prefix\":\"exports\",\"search_pattern\":\"source\\\\.csv\",\"table_name\":\"source\",\"key_properties\":\"Id\",\"delimiter\":\",\"}]"
+}

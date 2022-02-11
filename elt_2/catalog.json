@@ -1,0 +1,144 @@
+{
+  "streams": [
+    {
+      "stream": "source",
+      "tap_stream_id": "source",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ]
+          },
+          "Name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Subject": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Marks": {
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ]
+          },
+          "_sdc_source_bucket": {
+            "type": "string"
+          },
+          "_sdc_source_file": {
+            "type": "string"
+          },
+          "_sdc_source_lineno": {
+            "type": "integer"
+          },
+          "_sdc_extra": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {}
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "Id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Id"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Subject"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Marks"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_bucket"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_file"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_lineno"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_extra"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    }
+  ]
+}
